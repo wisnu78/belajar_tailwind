@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Belajar Tailwind</title>
+
+  <style type="text/tailwindcss">
+    * {
+      border: 1px solid black
+    }
+  </style>
+</head>
+<body>
+    <h1 class="text-8xl font-bold mx-auto  my-8 text-center">
+      Mari Belajar
+      <span class="bg-gradient-to-r to-teal-400 from-blue-500 bg-clip-text text-transparent">Tailwind</span>
+    </h1>
+    <section class="bg-gradient-to-r via-red-300 from-indigo-600 to-yellow-100">
+      <h2 class="text-3xl text-center mb-2">Spacing</h2>
+      <div class="mx-12">Margin</div>
+      <div class="p-8 mt-2">
+        Padding
+      </div>
+    </section>
+
+    <section class="mt-10 hidden">
+      <h2>Sizing</h2>
+      <div class="w-32 h-32 bg-blue-600">KOTAK 1</div>
+    </section>
+
+    <section class="mt-10 p-1 mb-96 font-inter max-w-3xl mx-auto">
+      <h2 class="mb-2 text-4xl font-bold capitalize">Belajar mengenai typografi mengenai tailwin css</h2>
+      <div class="mb-4 font-semibold text-gray-500">
+          Cretaed By <a href="#" class="font-semibold text-black">Wisnu Alipudin</a>, 4 April 2022
+      </div>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet <a href="#" class="underline font-semibold">consectetur</a>, adipisicing elit. Officiis ducimus fuga dolores quis consequuntur esse blanditiis eaque aliquid ipsam corrupti. Ut architecto maxime commodi delectus enim harum expedita reiciendis soluta, aperiam consequatur necessitatibus unde blanditiis itaque dolor suscipit sed nihil quia natus tempora magni. Aperiam vel tenetur rerum error porro.
+      </p>
+      <blockquote class="mb-4 italic font-thin text-xl"> 
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa numquam ipsa recusandae deserunt enim sunt placeat quasi. Earum laborum quo illo voluptatem modi delectus, eius beatae pariatur nesciunt reiciendis aliquam."
+      </blockquote>
+      
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam, iure molestias ullam hic explicabo vel quos distinctio autem fugit.
+      </p>
+    </section>
+</body>
+</html>
